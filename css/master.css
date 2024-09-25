@@ -75,4 +75,31 @@ html {
     width: 3.5rem;
     height: 1.6rem;
     background-color: #25d390;
+    color: #fff;
+    display: grid;
+    place-items: center;
+    border-radius: .3rem;
+    font-size: .9rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+.card-bottom h3{
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+}
+.stars{
+    margin-bottom: 3rem;
+}
+.stars i:last-child{
+    opacity: 0.4;
+}
+.size{
+    margin-bottom: 3rem;
+}
+.size h4{
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
